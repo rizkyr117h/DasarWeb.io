@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #18122B;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+    padding: 20px;
+    background-color: white;
+    color: #18122B;
+}
+
+
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3 {
+    color: #18122B
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #18122B
+}
+.profile header {
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #18122B;
+    text-align: center;
+    font-weight: bold;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.profile img {
+    width: 200px;
+    
+}
+
+.card {
+    background-color: white;   
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.card:hover{
+    transition: 0.1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.jumbotron {
+    background-image: url(../image/Tools/Backround.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    padding: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #18122B;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+    background-color: #635985;
+}
+
+#content {
+    
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    /* ..... */
+}
+
+@media screen and (max-width: 600px) {
+    /* ..... */
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+header {
+    display: inline;
+}
+
+.container {
+    display: flex;
+}
+
+
+.icons {
+    text-align: center;
+}
+.icons .fa-brands {
+    
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.icons .fa-brands:hover{
+    transition: 0.5s;
+    color: #3700da;
+}
+
+.tools{
+    height: 60px;
+    padding: 10px;
+}
+
+.tools:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
